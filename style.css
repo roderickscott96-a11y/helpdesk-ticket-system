@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.ticket-form {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.ticket-form input,
+.ticket-form select,
+.ticket-form textarea,
+.ticket-form button {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.ticket-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.ticket-form button {
+  background: #0b5ed7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.ticket-form button:hover {
+  background: #084db2;
+}
+
+.ticket-list {
+  display: grid;
+  gap: 16px;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  border-left: 5px solid #0b5ed7;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.ticket-card h3 {
+  margin-top: 0;
+}
+
+.ticket-meta {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.ticket-actions {
+  margin-top: 12px;
+}
+
+.ticket-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn {
+  background: #198754;
+  color: white;
+}
+
+.close-btn:hover {
+  background: #146c43;
+}
+.open {
+    color: #0b5ed7;
+    font-weight: bold;
+}
+
+.closed {
+    color: #198754;
+    font-weight: bold;
+}
